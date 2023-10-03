@@ -1,3 +1,5 @@
+import User from "./UserClass";
+
 export const About = () => {
   return (
     <div>
@@ -8,6 +10,7 @@ export const About = () => {
         numquam mollitia aliquid reprehenderit nihil dolorem pariatur culpa.
         Quibusdam omnis recusandae architecto ad dicta.
       </h2>
+      <User contact="999999999" />
     </div>
   );
 };
